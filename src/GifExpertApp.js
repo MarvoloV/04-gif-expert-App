@@ -1,8 +1,8 @@
 import React,{Fragment, useState} from 'react';
-import { AddCategory } from './AddCategory';
+import { AddCategory } from './components/AddCategory';
 
 const GifExepertApp = ()=>{
-    const [categories, setCategories] = useState(['One Punch', 'Samurai X','Dragon Ball'])
+    const [categories, setCategories] = useState(['One Punch'])
     /* const handleAdd=()=>{
         //setCategories(categories.concat('HunterXHunter'));
         //otra manera
